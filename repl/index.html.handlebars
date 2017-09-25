@@ -16,7 +16,7 @@
     <link href="css/page.css" rel="stylesheet">
 
     <!-- Style for the REPL -->
-    <link href="https://cdn.rawgit.com/ramda/repl/master/dist/bundle.css" rel="stylesheet">
+    <link href="https://cdn.rawgit.com/ramda/repl/{{repl_tag}}/dist/bundle.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -54,7 +54,7 @@
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/URI.js/1.18.1/URI.min.js"></script>
-    <script src="https://cdn.rawgit.com/ramda/repl/master/dist/bundle.js"></script>
+    <script src="https://cdn.rawgit.com/ramda/repl/{{repl_tag}}/dist/bundle.js"></script>
 
     <script>
 
@@ -77,7 +77,7 @@
 
         var version = location.search.substr(1).split('&').reduce(toVersion, 'latest');
 
-        var ramdaUrl = '//cdn.jsdelivr.net/ramda/' + version + '/ramda.min.js';
+        var ramdaUrl = '//cdn.jsdelivr.net/npm/ramda@' + version + '/dist/ramda.min.js';
 
         // --------------------------------------------------------------------
 

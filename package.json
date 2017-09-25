@@ -21,6 +21,7 @@
     "marked": "0.3.x",
     "pug": "^2.0.0-beta6",
     "ramda": "0.24.1",
+    "ramda-repl": "1.1.0",
     "semver-compare": "1.0.x",
     "walk": "2.3.x"
   },
